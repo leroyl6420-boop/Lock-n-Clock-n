@@ -36,3 +36,10 @@ I coded and built the first prototype of the Clock'n Lock'n! I just had one posi
 I got rid of the 28BYJ-48 Stepper motor and replaced it with a modified SG90 servo motor. I modified it by disconnecting the encoder and getting rid of the mechanical plastic catch, making it bacically a mini high-torque dc motor. I can control the speed, but I can't control the position anymore (due to the disconnected encoder). That's alright, as I can tell the position of the punch card anyway through the LED-photoresistor modules. Getting rid of the 28BYJ-48 in favor of the SG90 also has the benefit of saving space in the case, not only with the motor itself but also in the lack of a driver module. 
 
 ![A picture of the Clock'n Lock'n CAD, now with a servo motor instead of a stepper motor](Images/CILI4.png)
+
+# Devlog 6
+1h 10m 50sec Logged
+
+I coded the test code and part of the actual code. I had to spend time coding the logic on the positioning, and I also had to do some soldering on the back of one of my OLEDs to change its adress. Again, not a lot to say, just a lot of difficult work, troubleshooting, but getting there in the end (:
+
+![An image of the OLED which had its adress changed](Images/IMG_0255.JPG)
