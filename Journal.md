@@ -51,3 +51,10 @@ I coded the test code and part of the actual code. I had to spend time coding th
 I built the first prototype of the Clock'n Lock'n! I couldn't figure out the stamping mechanism just yet, so I had to use a makeshift puncher consisting of a sharp chopstick, a bottle cap, and two pen springs. The new servo moving system works very well, though the position detection systems are not yet online. I need to make a hole puncher first. Overall, the tests that I set out to do with this prototype were all successes! I have new ideas on how to implement a stamp, like a solenoid (with a relay). 
 
 ![A picture of the first prototype of the Clock'n Lock'n!](Images/IMG_0256.JPG)
+
+# Devlog 8
+1h 32min Logged
+
+I CADed a system to automatically punch holes in the paper! I did a lot of brainstorming, and I landed on a small pin with a rounded head that a cam would push onto. I modeled the bulk of it already, but I need to do some real-world testing before making any more decisions. I'm using a spring to hold the pin up, which is hard to model around. I also had to move the roof higher to fit the 28BYJ-48 stepper motor that I'm adding back, which sucks because I want to make this device as small as possible. Still, I'm telling myself that it was necessary, because the roof is now full of stuff and I can't put the buttons/LEDs that I was planning to add there. Instead, I'll have to add them onto the elongated face. 
+
+![An Image of the Clock'n Lock'n with the punch system modeled](Images/CILI5.png)
