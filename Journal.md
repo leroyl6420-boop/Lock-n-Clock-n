@@ -43,3 +43,11 @@ I got rid of the 28BYJ-48 Stepper motor and replaced it with a modified SG90 ser
 I coded the test code and part of the actual code. I had to spend time coding the logic on the positioning, and I also had to do some soldering on the back of one of my OLEDs to change its adress. Again, not a lot to say, just a lot of difficult work, troubleshooting, but getting there in the end (:
 
 ![An image of the OLED which had its adress changed](Images/IMG_0255.JPG)
+
+# Devlog 7
+
+42 min Logged
+
+I built the first prototype of the Clock'n Lock'n! I couldn't figure out the stamping mechanism just yet, so I had to use a makeshift puncher consisting of a sharp chopstick, a bottle cap, and two pen springs. The new servo moving system works very well, though the position detection systems are not yet online. I need to make a hole puncher first. Overall, the tests that I set out to do with this prototype were all successes! I have new ideas on how to implement a stamp, like a solenoid (with a relay). 
+
+![A picture of the first prototype of the Clock'n Lock'n!](Images/IMG_0256.JPG)
